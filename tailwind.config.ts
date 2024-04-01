@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        '824': '824px',
+        '685': '685px',
+      },
       spacing: {
         '237': '237px',
         '450': '450px',
@@ -16,12 +20,22 @@ const config: Config = {
         '218': '218px',
         '385': '385px',
         '1271': '1272px',
+        '918': '918px',
+        '625': '625px',
+        '597': '597px',
+        "440":"440px",
+        "1240":"1240px",
+        '824':'824px',
+        '864':'864px',
+        "1090":"1090px",
 
         
       },
       colors:{
         "costom":"#F7F7F8",
         "525965":"#525965",
+        "A9ACB2":"#A9ACB2",
+        "2C9CF0":"#2C9CF0"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

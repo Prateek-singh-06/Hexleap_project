@@ -1,10 +1,11 @@
 import React from 'react'
 import ProductCard from "./productcard";
+// import "./component1.css";
 
 const product = () => {
   return (
     <div className='h-auto max-w-1271 text-center bg-costom mx-auto pt-10'>
-        <div className='text-left text-black ml-4 font-bold text-2xl underline underline-offset-8 textDecorationcolor'>sport</div>
+        <div className='sm:text-left text-center text-black sm:ml-4  font-bold text-2xl underline underline-offset-8 textDecorationcolor'>sport</div>
         <div className="bg-costom w-full flex flex-col sm:flex-row sm:justify-between sm:items-start justify-start items-center " >
         <ProductCard/>
         <ProductCard/>
