@@ -11,7 +11,9 @@ const config: Config = {
     extend: {
       screens: {
         '824': '824px',
-        '685': '685px',
+        '685': '730px',
+        '890': '890px',
+        '460':'460px',
       },
       spacing: {
         '237': '237px',
@@ -28,6 +30,7 @@ const config: Config = {
         '824':'824px',
         '864':'864px',
         "1090":"1090px",
+        '375':'375px'
 
         
       },
@@ -35,7 +38,15 @@ const config: Config = {
         "costom":"#F7F7F8",
         "525965":"#525965",
         "A9ACB2":"#A9ACB2",
-        "2C9CF0":"#2C9CF0"
+        "2C9CF0":"#2C9CF0",
+        "292B32":"#292B32",
+        "3B3E47":"#3B3E47",
+        "DFDFDF":"#DFDFDF",
+        "818A97":"#818A97",
+        "18282A":"#18282A",
+        "221A2C":"#221A2C",
+        "mix":"rgb(31,30,43)"
+        
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
