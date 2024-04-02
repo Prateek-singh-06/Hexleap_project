@@ -13,3 +13,6 @@
   --tglbg:red;
 
 } */
+.content::before{
+  content: 'Ad';
+}
